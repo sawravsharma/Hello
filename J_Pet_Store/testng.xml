@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/SauravSharma/IdeaProjects/J_Pet_Store">
+        <classes>
+            <class name="com.Test.AddToCartTest">
+                <methods>
+                    <include name="addToCart_details"/>
+                </methods>
+            </class>
+            <class name="com.Test.FishTest">
+                <methods>
+                    <include name="clickOnFish"/>
+                </methods>
+            </class>
+            <class name="com.Test.HomeTest">
+                <methods>
+                    <include name="CheckUrl"/>
+                    <include name="CheckUser"/>
+                    <include name="register_Fish"/>
+                </methods>
+            </class>
+
+            <class name="com.Test.RegisterTest">
+                <methods>
+                    <include name="register_details"/>
+                </methods>
+            </class>
+            <class name="com.Test.SignInTest">
+                <methods>
+                    <include name="login_details"/>
+                    <include name="register_click"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
